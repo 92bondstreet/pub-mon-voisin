@@ -1,0 +1,31 @@
+{
+  "name": "pub-mon-voisin",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
+  "homepage": "https://github.com/92bondstreet/pub-mon-voisin",
+  "description": "Get free paper brand catalog - Only for France - catalogue is french name for catalog",  
+  "main": "lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/92bondstreet/pub-mon-voisin.git"
+  },
+  "keywords": [
+    "pub",
+    "catalogue",
+    "papier",
+    "voisin"
+  ],
+  "analyze": false,
+  "dependencies": {
+    "needle": "*"
+  },
+  "devDependencies": {
+   	"mocha": "",
+   	"should": ""
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "license": "MIT"
+}

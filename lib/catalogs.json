@@ -1,0 +1,63 @@
+{
+	"afibel":
+	{
+		"url": {
+			"name":"Afibel",
+			"posturl": "http://www.afibel.fr/catalog.php"  
+		},
+		"who": {
+			"email" : "email_address",
+			"title": "gender",
+			"firstname": "firstname",
+			"lastname": "lastname",
+			"completeaddress": "street_address",
+			"zipcode" :"postcode",
+			"town" : "city"
+		},
+		"specific": {
+			"action":"process",
+			"telephone_speedform":"",
+			"session_telform":"1",
+			"suburb":"",
+			"lieu_dit":"",
+			"pcle":"",
+			"dob[day]":"",
+			"dob[month]":"",
+			"dob[year]":"",
+			"telephone":"",
+			"mobile":"",
+			"newsletter":"Non",
+			"partner":"Non",
+			"x":"21",
+			"y":"18"
+		}	    
+	},
+	"bleu-bonheur":
+	{
+		"url": {
+			"name":"Bleu Bonheur",
+			"posturl": "https://www.bleu-bonheur.com/senior/traitements/catalogue.jsp"  
+		},
+		"who": {
+			"email" : "email",
+			"fulltitle": "civilite",
+			"firstname": "prenom",
+			"lastname": "famille",
+			"address": "rue",
+			"zipcode" :"codepostal",
+			"town" : "ville"
+		},
+		"specific": {
+			"numerorue":"0",
+			"send":"true",
+			"batiment":"",
+			"lieudit":"",
+			"fixe":"",
+			"jour":"",
+			"mois":"",
+			"annee":"",
+			"send":"je demande le catalogue"
+		}	    
+	}
+
+}

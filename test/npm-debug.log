@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'G:\\Node.ginx\\nodejs-portable\\\\node.exe',
+1 verbose cli   'G:\\Node.ginx\\nodejs-portable\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'test' ]
+2 info using npm@1.2.21
+3 info using node@v0.10.7
+4 verbose node symlink G:\Node.ginx\nodejs-portable\\node.exe
+5 verbose read json G:\Node.ginx\module-tutorial\catalogue\test\package.json
+6 error Error: ENOENT, open 'G:\Node.ginx\module-tutorial\catalogue\test\package.json'
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Windows_NT 5.1.2600
+9 error command "G:\\Node.ginx\\nodejs-portable\\\\node.exe" "G:\\Node.ginx\\nodejs-portable\\node_modules\\npm\\bin\\npm-cli.js" "test"
+10 error cwd G:\Node.ginx\module-tutorial\catalogue\test
+11 error node -v v0.10.7
+12 error npm -v 1.2.21
+13 error path G:\Node.ginx\module-tutorial\catalogue\test\package.json
+14 error code ENOENT
+15 error errno 34
+16 verbose exit [ 34, true ]
