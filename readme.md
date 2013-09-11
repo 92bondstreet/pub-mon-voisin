@@ -1,8 +1,8 @@
-Catalogue
+PUB-MON-VOISIN
 =========
 
-Catalogue is a node.js module to receive French free (paper) catalog.
-This module is used by the french website <a href="http://pubmonvois.in">Pubmonvois.in</a>
+pub-mon-voisin is a node.js module to receive French free (paper) catalog.
+This module is used by the french website <a href="http://pubmonvois.in">pubmonvois.in</a>
 
 Keynote
 -------
@@ -22,19 +22,27 @@ List of them is defined in JSON.
 Installation
 ------------
 
-You can install catalogue and its dependencies with npm: `npm install catalogue`.
-
-Functions
----------
+You can install pub-mon-voisin and its dependencies with npm: `npm install pub-mon-voisin`.
 
 
 Usage
 -----
 
+`var PubMonVoisin = require('PubMonVoisin');
+`
+
+Methods
+-------
+
+Recipient JSON object
+---------------------
+
+Catalogs list JSON object
+-------------------------
 
 Project status
 --------------
-Astreed is currently maintained by Yassine Azzout.
+pub-mon-voisin is currently maintained by Yassine Azzout.
 
 
 Authors and contributors
