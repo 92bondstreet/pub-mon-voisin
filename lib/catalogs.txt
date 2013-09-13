@@ -9,16 +9,15 @@ List of french free catalogs that you can receive whithout:
 * captcha
 
 Catalogues habillement, mode...
-	http://www.afibel.fr/catalog.php
+	** 	http://www.afibel.fr/catalog.php
 https://www.bleu-bonheur.com/senior/traitements/catalogue.jsp
 http://www.bonprixservice.de/fr/bestellung/kataloganforderung.html?bpsid=1122260281652411387-0-504c46f5
 http://www.camif.fr/demandez-le-catalogue.html
-https://secure.cyrillus.fr/Views/CompteClient/ModificationCompte.aspx?m=7
+?? 	https://secure.cyrillus.fr/Views/CompteClient/ModificationCompte.aspx?m=7
 http://www.damart.fr/catalog.php
-https://secure.daxon.fr/modificationcompte.aspx?m=7
+??	https://secure.daxon.fr/modificationcompte.aspx?m=7
 https://www.madeleine.fr/demande-de-catalogue/index.html
-http://www.mcsapparel.com/fr/catalogue
-	https://www.ullapopken.fr/fr/contenu/service_clientele/avantages/demande_de_catalogue/
+	**	https://www.ullapopken.fr/fr/contenu/service_clientele/avantages/demande_de_catalogue/
 
 Catalogues jouets...
 http://www.gepetovillage.com/catalogue_request.php

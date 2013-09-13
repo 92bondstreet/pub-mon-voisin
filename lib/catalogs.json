@@ -10,7 +10,7 @@
 			"title": "gender",
 			"firstname": "firstname",
 			"lastname": "lastname",
-			"completeaddress": "street_address",
+			"complete_address": "street_address",
 			"zipcode" :"postcode",
 			"town" : "city"
 		},
@@ -40,15 +40,15 @@
 		},
 		"who": {
 			"email" : "email",
-			"fulltitle": "civilite",
+			"full_title": "civilite",
 			"firstname": "prenom",
 			"lastname": "famille",
 			"address": "rue",
+			"number_address" : "numerorue",
 			"zipcode" :"codepostal",
 			"town" : "ville"
 		},
 		"specific": {
-			"numerorue":"0",
 			"send":"true",
 			"batiment":"",
 			"lieudit":"",
@@ -58,6 +58,139 @@
 			"annee":"",
 			"send":"je demande le catalogue"
 		}	    
+	},
+	"bonprixservice":
+	{
+		"url": {
+			"name":"Bon Prix",
+			"posturl": "http://www.bonprixservice.de/relaunch09_scripts/fr/katanf/katanf_fr.php"  
+		},
+		"who": {
+			"email" : "em",
+			"title": "anrede",
+			"firstname": "vorname",
+			"lastname": "nachname",
+			"address": "strasse",
+			"number_address" : "hausnr",
+			"zipcode" :"plz",
+			"town" : "ort"
+		},
+		"specific": {
+			"zusatz" : "",
+			"telefon":"",
+			"dobdd":"jj",
+			"dobmm":"mm",
+			"dobyy":"1960",
+			"codesupport":"",
+			"nl":""
+		}	    
+	},
+	"camif":
+	{
+		"url": {
+			"name":"CAMIF",
+			"posturl": "http://www.camif.fr/newsletter/subscriber/subscribeCatalog/"  
+		},
+		"who": {
+			"email" : "mail",
+			"full_title": "prefix",
+			"firstname": "firstname",
+			"lastname": "lastname",
+			"complete_address": "address",
+			"zipcode" :"zipcode",
+			"town" : "city"
+		},
+		"specific": {
+			"address_compl" : "",
+			"wac_num_societaire":"",
+			"wac_num_societaire_lettre":""			
+		}	    
+	},
+	"damart":
+	{
+		"url": {
+			"name":"Damart",
+			"posturl": "http://www.damart.fr/catalog.php"  
+		},
+		"who": {
+			"email" : "email_address",						
+			"email_confirmation" : "email_address_confirmation",
+			"firstname": "firstname",
+			"lastname": "lastname",
+			"complete_address": "street_address",
+			"zipcode" :"postcode",
+			"town" : "city"
+		},
+		"specific": {
+			"action":"process",
+			"gender":"m",
+			"suburb":"",
+			"suburb2":"",
+			"lieu_dit":"",
+			"cboPays":"73",
+			"cboJour":"00",
+			"cboMois":"00",
+			"cboAnnee":"0000",
+			"telephone":"",
+			"telephone_portable":"",
+			"newsletter":"0",
+			"newsletter_marketing_offer":"0"
+		}	    
+	},
+	"madeleine":
+	{
+		"url": {
+			"name":"Madelein",
+			"posturl": "https://www.madeleine.fr/demande-de-catalogue/SubmitData.html"  
+		},
+		"who": {
+			"email" : "ID_0_Customer_ID_Email",						
+			"firstname": "ID_0_Customer_ID_FirstName",
+			"lastname": "ID_0_Customer_ID_LastName",
+			"number_address": "ID_0_Customer_ID_HouseNumber",
+			"address": "ID_0_Customer_ID_Street",
+			"zipcode" :"ID_0_Customer_ID_Zip",
+			"town" : "ID_0_Customer_ID_City"
+		},
+		"specific": {
+			"ID_0_Customer_ID_Gender":"Male",
+			"ID_0_Customer_ID_CoName":"",
+			"ID_0_Customer_ID_Birthday":"JJ/MM/AAAA",
+			"ID_0_Customer_ID_PhoneNumber":"",
+			"ID_0_Customer_ID_MobilePhoneNumber":"",
+			"ID_0_ID_WtcCode":""
+		}	    
+	},
+	"ullapopken":
+	{
+		"url": {
+			"name":"Madelein",
+			"posturl": "https://www.ullapopken.fr/fr/contenu/service_clientele/avantages/demande_de_catalogue/"  
+		},
+		"who": {
+			"email" : "customer_email:value",						
+			"firstname": "customer_firstname:value",
+			"lastname": "customer_lastname:value",
+			"number_address": "customer_streetNameAndStreetNr:customer_streetNr",
+			"address": "customer_streetNameAndStreetNr:customer_streetName",
+			"zipcode" :"customer_postalCodeAndTown:customer_postalCode",
+			"town" : "customer_postalCodeAndTown:customer_town"
+		},
+		"specific": {
+			"registerForm":"registerForm",
+			"customer_salutation:value":"MALE",
+			"customer_addressSuffix:value":"",
+			"customer_country:value":"FR",
+			"customer_phone:customer_areaCode":"",
+			"customer_phone:customer_phoneNumber":"",
+			"customer_dateOfBirth:day":"26",
+			"customer_dateOfBirth:month":"07",
+			"customer_dateOfBirth:year":"1978",
+			"customer_number:value":"",
+			"customer_dataPrivacyAccepted:value":"on",
+			"j_idt290":"",
+			"order_catalog":"order_catalog",
+			"customerType":"guest"
+		}	    
 	}
-
 }

@@ -16,11 +16,12 @@ var traceError = function (error, retval) {
  *    DEFINITION OF OBJECT PARAMETER
  */
 
-var who = { "fulltitle" : "MR",
+var who = { "full_title" : "MR",
             "title" : "2",
             "firstname" : "Joseph",
             "lastname" : "SOUCY",
-            "completeaddress" : "64 boulevard Aristide Briand",
+            "complete_address" : "64 boulevard Aristide Briand",
+            "number_address" : "64",
             "address" : "boulevard Aristide Briand",
             "zipcode" : "76120",
             "town" : "LE GRAND-QUEVILLY"
@@ -70,23 +71,10 @@ describe('letterBox', function() {
             postman.letterBox("",what, traceError);
           }).should.throw();     
         });
-       /* it('callback if ARRAY object for what catalogs is not correct', function() {        
-          (function () {
-            var postman = new PubMonVoisin();
-            postman.letterBox(whon,"", traceError);
-          }).should.throw();
-        });*/
         it('return OK if args are correct', function() {        
           var postman = new PubMonVoisin();
           postman.letterBox(who, what,traceError).should.be.true;
         });
-        /*it('callback if catalogs name (in WHAT parameters) in not found in catalogs database', function(done) {        
-          var postman = new PubMonVoisin();
-          postman.letterBox(who, what,function(err){
-            if (err) console.log(err);
-            done();
-          });
-        });*/
         it('build complete WHO information', function() {        
           var postman = new PubMonVoisin();
           var recipient = postman.buildRecipient(who);
@@ -95,7 +83,7 @@ describe('letterBox', function() {
         });
         it('callback if recipient is register to catalogs provided', function(done) {        
           var postman = new PubMonVoisin();
-          postman.letterBox(who, ['maisonsdumonde'],function(err){
+          postman.letterBox(who,function(err){
             if (err) console.log(err);
             done();
           });
@@ -103,8 +91,7 @@ describe('letterBox', function() {
         it('callback if recipient is register', function(done) {        
           this.timeout(50000);
           var postman = new PubMonVoisin();
-          //postman.letterBox(who,function(err){
-          postman.letterBox(who,['bleu-bonheur'],function(err){
+          postman.letterBox(who,['ullapopken'/*'madeleine','damart','camif','bonprixservice','afibel','bleu-bonheur'*/],function(err){
             if (err) console.log(err);
             done();
           });
