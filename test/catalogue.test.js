@@ -79,7 +79,7 @@ describe('letterBox', function() {
           });
         });
         it('callback if recipient is register', function(done) {        
-          this.timeout(50000);
+          //this.timeout(50000);
           postman.letterBox(who,['ullapopken'/*'madeleine','damart','camif','bonprixservice','afibel','bleu-bonheur'*/],function(err){
             if (err) console.log(err);
             done();
