@@ -7,7 +7,6 @@
 		},
 		"who": {
 			"email" : "email_address",
-			"title": "gender",
 			"firstname": "firstname",
 			"lastname": "lastname",
 			"complete_address": "street_address",
@@ -16,6 +15,7 @@
 		},
 		"specific": {
 			"action":"process",
+			"gender":"2",
 			"telephone_speedform":"",
 			"session_telform":"1",
 			"suburb":"",
@@ -40,7 +40,6 @@
 		},
 		"who": {
 			"email" : "email",
-			"full_title": "civilite",
 			"firstname": "prenom",
 			"lastname": "famille",
 			"address": "rue",
@@ -50,6 +49,7 @@
 		},
 		"specific": {
 			"send":"true",
+			"civilite":"MR",
 			"batiment":"",
 			"lieudit":"",
 			"fixe":"",
@@ -67,7 +67,6 @@
 		},
 		"who": {
 			"email" : "em",
-			"title": "anrede",
 			"firstname": "vorname",
 			"lastname": "nachname",
 			"address": "strasse",
@@ -76,6 +75,7 @@
 			"town" : "ort"
 		},
 		"specific": {
+			"anrede":"1",
 			"zusatz" : "",
 			"telefon":"",
 			"dobdd":"jj",
@@ -92,8 +92,7 @@
 			"posturl": "http://www.camif.fr/newsletter/subscriber/subscribeCatalog/"  
 		},
 		"who": {
-			"email" : "mail",
-			"full_title": "prefix",
+			"email" : "mail",			
 			"firstname": "firstname",
 			"lastname": "lastname",
 			"complete_address": "address",
@@ -101,6 +100,7 @@
 			"town" : "city"
 		},
 		"specific": {
+			"prefix":"1",
 			"address_compl" : "",
 			"wac_num_societaire":"",
 			"wac_num_societaire_lettre":""			
