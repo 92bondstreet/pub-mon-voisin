@@ -17,7 +17,7 @@ var traceError = function (error, retval) {
  */
 
 var who = { "firstname" : "Joseph",
-            "lastname" : "SOUCY",            
+            "lastname" : "SOU",            
             "number_address" : "64",
             "address" : "boulevard Aristide Briand",
             "zipcode" : "76120",
@@ -63,25 +63,28 @@ describe('letterBox', function() {
             postman.letterBox("",what, traceError);
           }).should.throw();     
         });
-        it('return OK if args are correct', function() {        
+        /*it('return OK if args are correct', function() {        
           postman.letterBox(who, what,traceError).should.be.true;
-        });
+        });*/
         it('build complete WHO information', function() {        
           var recipient = postman.buildRecipient(who);
           recipient.should.have.property('complete_address');
           recipient.should.have.property('email');          
           recipient.should.have.property('birthday');
         });
-        it('callback if recipient is register to catalogs provided', function(done) {        
-          postman.letterBox(who,function(err){
+        it('callback if recipient is register to catalogs provided', function(done) { 
+          this.timeout(50000);       
+          postman.letterBox(who,function(err,results){
             if (err) console.log(err);
+            console.log(results);
             done();
           });
         });
         it('callback if recipient is register', function(done) {        
-          //this.timeout(50000);
-          postman.letterBox(who,['ullapopken'/*'madeleine','damart','camif','bonprixservice','afibel','bleu-bonheur'*/],function(err){
+          this.timeout(50000);
+          postman.letterBox(who,['ullapopken'/*,'madeleine','damart','camif','bonprixservice','afibel','bleu-bonheur'*/],function(err,results){
             if (err) console.log(err);
+            console.log(results);
             done();
           });
         });
