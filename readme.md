@@ -32,9 +32,7 @@ Usage
 -----
 
 	// Recipient definition 
-	var recipient = { 	
-						"full_title" : "MR",
-            			"title" : "2",
+	var recipient = { 							
             			"firstname" : "Joseph",
             			"lastname" : "SOUCY",
             			"complete_address" : "64 boulevard Aristide Briand",
@@ -44,18 +42,18 @@ Usage
             			"town" : "LE GRAND-QUEVILLY"
           			};
 
-	var PubMonVoisin = require('PubMonVoisin');	
+	var postman = require('PubMonVoisin');	
 
-	var postman = new PubMonVoisin();
-	postman.letterBox(recipient,function(err){
+	postman.letterBox(recipient,function(err,results){
 		if (err) console.log(err);
+		console.log(results);
 	});
 
 
 Methods
 -------
 
-	PubMonVoisin.letterBox(who, [what], callback);
+	letterBox(who, [what], callback);
 
 With 
 
@@ -86,8 +84,7 @@ The JSON object identified by a catalog name is defined by 3 attributes:
 				"posturl": "http://www.brand-example.com/receive.php"  
 			},
 			"who": {
-				"email" : "email_address",
-				"title": "gender",
+				"email" : "email_address",				
 				"firstname": "firstname",
 				"lastname": "lastname",
 				"completeaddress": "street_address",
@@ -111,8 +108,6 @@ Recipient JSON object
 Recipient JSON object defines who has to receive catalogs.
 
 	var who = { 	
-					"full_title" : "MR",
-            		"title" : "2",
             		"firstname" : "Joseph",
             		"lastname" : "SOUCY",
             		"complete_address" : "64 boulevard Aristide Briand",
