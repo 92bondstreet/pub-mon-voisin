@@ -35,8 +35,7 @@ Usage
 	var recipient = { 							
             			"firstname" : "Joseph",
             			"lastname" : "SOUCY",
-            			"complete_address" : "64 boulevard Aristide Briand",
-						"number_address" : "64",
+            			"number_address" : "64",
             			"address" : "boulevard Aristide Briand",
             			"zipcode" : "76120",
             			"town" : "LE GRAND-QUEVILLY"
@@ -110,7 +109,6 @@ Recipient JSON object defines who has to receive catalogs.
 	var who = { 	
             		"firstname" : "Joseph",
             		"lastname" : "SOUCY",
-            		"complete_address" : "64 boulevard Aristide Briand",
 					"number_address" : "64",
             		"address" : "boulevard Aristide Briand",
             		"zipcode" : "76120",
