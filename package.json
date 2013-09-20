@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
   "homepage": "https://github.com/92bondstreet/pub-mon-voisin",
-  "description": "Get free paper brand catalog - Only for France - pub-mon-voisin module is used by http://pubmonvois.in",  
+  "description": "Get free paper brand catalog - Only for France - pub-mon-voisin module is used by http://pubmonvois.in",
   "main": "lib/main.js",
   "repository": {
     "type": "git",
@@ -19,15 +19,20 @@
   "analyze": false,
   "dependencies": {
     "needle": "*",
-    "async":"*",
-    "random-ua":"*"
+    "async": "*",
+    "random-ua": "*"
   },
   "devDependencies": {
-   	"mocha": "",
-   	"should": ""
+    "mocha": "",
+    "should": ""
   },
   "scripts": {
     "test": "mocha test/*.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "gitHead": "6184576604c39f2a874baa3fe76f582d49865965",
+  "bugs": {
+    "url": "https://github.com/92bondstreet/pub-mon-voisin/issues"
+  }
 }
