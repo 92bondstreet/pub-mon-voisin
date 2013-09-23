@@ -4,6 +4,8 @@ PUB-MON-VOISIN
 pub-mon-voisin is a node.js module to receive French free (paper) catalog.
 This module is used by the french website <a href="http://pubmonvois.in">pubmonvois.in</a>
 
+[![Build Status](https://travis-ci.org/92bondstreet/pub-mon-voisin.png)](https://travis-ci.org/92bondstreet/pub-mon-voisin)
+
 Keynote
 -------
 
