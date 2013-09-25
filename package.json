@@ -1,7 +1,7 @@
 {
   "name": "pub-mon-voisin",
   "preferGlobal": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Yassine AZZOUT <92bondstreet@gmail.com>",
   "homepage": "https://github.com/92bondstreet/pub-mon-voisin",
   "description": "Get free paper brand catalog - Only for France - pub-mon-voisin module is used by http://pubmonvois.in",
